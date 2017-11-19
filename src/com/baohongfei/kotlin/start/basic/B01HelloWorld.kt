@@ -1,4 +1,4 @@
-package com.baohongfei.kotlin.start
+package com.baohongfei.kotlin.start.basic
 
 import java.util.function.Consumer
 
