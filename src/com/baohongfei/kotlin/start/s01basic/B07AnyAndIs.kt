@@ -1,4 +1,4 @@
-package com.baohongfei.kotlin.start.basic
+package com.baohongfei.kotlin.start.s01basic
 
 fun main(args: Array<String>) {
     println(convert2Uppercase("Hello world!!!"))

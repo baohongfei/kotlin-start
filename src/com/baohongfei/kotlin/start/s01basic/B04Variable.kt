@@ -1,4 +1,4 @@
-package com.baohongfei.kotlin.start.basic
+package com.baohongfei.kotlin.start.s01basic
 
 //import com.baohongfei.kotlin.start.basic2.multiply
 import com.baohongfei.kotlin.start.basic2.multiply as myMultiply

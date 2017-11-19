@@ -1,4 +1,4 @@
-package com.baohongfei.kotlin.start.basic
+package com.baohongfei.kotlin.start.s01basic
 
 fun main(args: Array<String>) {
     var array: IntArray = intArrayOf(1, 2, 3, 4, 5)
