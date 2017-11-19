@@ -2,6 +2,7 @@ package com.baohongfei.kotlin.start
 
 import java.util.function.Consumer
 
+
 fun main(args:Array<String>){
     println("Hello World!")
 
