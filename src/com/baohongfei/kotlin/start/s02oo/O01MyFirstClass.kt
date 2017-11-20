@@ -11,8 +11,13 @@ class MyFirstClass constructor(username: String) {
     init {
         println(username)
     }
+
+    fun printInfo() {
+        println("username: ${this.username}")
+    }
 }
 
 fun main(args: Array<String>) {
     var myFirstClass = MyFirstClass("zhangsan")
+    myFirstClass.printInfo()
 }

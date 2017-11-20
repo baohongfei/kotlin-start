@@ -1,37 +1,27 @@
 package com.baohongfei.kotlin.start.s02oo
 
-/**
- * output
-zhangsan
-lisi
-lisi,30
-wangwu
-wangwu,40
-username: zhangsan,age: 20,address: beijing
-username: lisi,age: 30,address: beijing
-username: wangwu,age: 40,address: address
- */
 class Person constructor(username: String) {
     private var username: String
     private var age: Int
     private var address: String
 
     init {
-        println(username)
+        println("$username in 1st constructor")
         this.username = username
         this.age = 20
         this.address = "beijing"
     }
 
     constructor(username: String, age: Int) : this(username) {
-        println(username + "," + age)
+        println("$username , $age in 2nd constructor")
         this.username = username
         this.age = age
         this.address = "beijing"
     }
 
     constructor(username: String, age: Int, address: String) : this(username, age) {
-        this.address = "address"
+        println("$username , $age , $address in 3rd constructor")
+        this.address = address
     }
 
     fun printInfo() {
