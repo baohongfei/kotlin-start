@@ -1,4 +1,4 @@
-package com.baohongfei.kotlin.start.s02oo
+package com.baohongfei.kotlin.start.p02oo
 
 class Person constructor(username: String) {
     private var username: String

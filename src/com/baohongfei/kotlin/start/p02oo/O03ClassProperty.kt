@@ -1,4 +1,4 @@
-package com.baohongfei.kotlin.start.s02oo
+package com.baohongfei.kotlin.start.p02oo
 
 class Student(private val username: String, private val age: Int, private var address: String) {
     fun printInfo() {
