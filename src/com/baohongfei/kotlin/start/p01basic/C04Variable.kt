@@ -42,6 +42,8 @@ fun main(args: Array<String>) {
 
     m.set(0, 4)
 
+    m[0] = 4
+
     for (item in m) {
         println(item)
     }
